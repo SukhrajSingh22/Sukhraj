@@ -1,0 +1,20 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ec0a99; /* Light gray background */
+    color: #f902cc; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 30px;
+    color: #4f0000;
+    text-align: center;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    border: 5px solid #ccc;
+  }
