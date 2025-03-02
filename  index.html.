@@ -10,7 +10,8 @@
 
   <div class="content">
     <h1 class="main-title">Welcome to My Ugly Website</h1>
-    
+    <p><span class="highlight-text">special text styling</span>.</p>
+    <p class="custom-style"></p>
   </div>
 
 </body>
