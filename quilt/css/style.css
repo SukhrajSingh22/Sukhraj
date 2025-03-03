@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.pattern {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 equal rows */
+    grid-gap: 10px; /* Space between the squares */
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+/* Default styling for each square */
+.square {
+    width: 100%;
+    height: 100%;
+}
+
+/* Assign different colors to each square using nth-child */
+.square:nth-child(1) {
+    background-color: #3498db; /* Blue */
+}
+
+.square:nth-child(2) {
+    background-color: #e74c3c; /* Red */
+}
+
+.square:nth-child(3) {
+    background-color: #2ecc71; /* Green */
+}
+
+.square:nth-child(4) {
+    background-color: #f39c12; /* Yellow */
+}
+
+.square:nth-child(5) {
+    background-color: #9b59b6; /* Purple */
+}
+
+.square:nth-child(6) {
+    background-color: #1abc9c; /* Teal */
+}
+
+.square:nth-child(7) {
+    background-color: #34495e; /* Dark Grey */
+}
+
+.square:nth-child(8) {
+    background-color: #f1c40f; /* Bright Yellow */
+}
+
+.square:nth-child(9) {
+    background-color: #e67e22; /* Orange */
+}
+
+.square:nth-child(10) {
+    background-color: #16a085; /* Aqua */
+}
+
+.square:nth-child(11) {
+    background-color: #2980b9; /* Blue */
+}
+
+.square:nth-child(12) {
+    background-color: #c0392b; /* Dark Red */
+}
+
+.square:nth-child(13) {
+    background-color: #8e44ad; /* Dark Purple */
+}
+
+.square:nth-child(14) {
+    background-color: #27ae60; /* Light Green */
+}
+
+.square:nth-child(15) {
+    background-color: #7f8c8d; /* Grey */
+}
+
+.square:nth-child(16) {
+    background-color: #e311a0; /* Light Grey */
+}
+
+.square:nth-child(17) {
+    background-color: #0ff031; /* Light Grey */
+}
+
+.square:nth-child(18) {
+    background-color: #0a07dc; /* Light Grey */
+}
+
+.square:nth-child(19) {
+    background-color: #e7cc00; /* Light Grey */
+}
+
+.square:nth-child(20) {
+    background-color: #fb0303; /* Light Grey */
+}
